@@ -1,21 +1,5 @@
 {
   "nodes": {
-    "blog-posts": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1702877395,
-        "narHash": "sha256-YENTnX3gu6WH4wC7cDoE1GyMEIBdV858dXJaHHG0jLg=",
-        "owner": "ALescoulie",
-        "repo": "blog_posts",
-        "rev": "ef66d78774035d09fb0554b45fd08bb59ba7e9be",
-        "type": "github"
-      },
-      "original": {
-        "owner": "ALescoulie",
-        "repo": "blog_posts",
-        "type": "github"
-      }
-    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -145,7 +129,6 @@
     },
     "root": {
       "inputs": {
-        "blog-posts": "blog-posts",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs",
         "nixpkgs-pandoc": "nixpkgs-pandoc",

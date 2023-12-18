@@ -5,14 +5,10 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     nixpkgs-pandoc.url = "github:nixos/nixpkgs/nixos-23.05";
     flake-utils.url = "github:numtide/flake-utils";
-    blog-posts = {
-      url = "github:ALescoulie/blog_posts";
-      flake = false;
-    };
     poetry2nix.url = "github:nix-community/poetry2nix";
   };
 
-  outputs = { self, nixpkgs, nixpkgs-pandoc, flake-utils, blog-posts, poetry2nix }:
+  outputs = { self, nixpkgs, nixpkgs-pandoc, flake-utils, poetry2nix }:
     flake-utils.lib.eachDefaultSystem (system:
       let
         lib = nixpkgs.lib;
@@ -41,17 +37,11 @@
 
         };
         # DON'T FORGET TO PUT YOUR PACKAGE NAME HERE, REMOVING `throw`
-        packageName = "alialescoulie-com";
+        packageName = "sitegen";
 
-        makeSite = content: pkgs.runCommand "site" {} ''
-          cp -r ${content} blog_posts
-          ${app}/bin/sitegen
-          cp -r site_out $out
-        '';
       in {
         packages.${packageName} = app;
-        packages.site = makeSite blog-posts;
-        packages.default = self.packages.${system}.site;
+        packages.default = self.packages.${system}.${packageName};
 
         devShells.default = pkgs.mkShell {
           buildInputs = [ pkgs.poetry pandoc ];
