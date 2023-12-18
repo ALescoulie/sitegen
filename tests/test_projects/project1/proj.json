@@ -1,0 +1,13 @@
+{
+  "file_path": "project.md",
+  "proj_dir": "project1",
+  "format": "markdown",
+  "static_dir": "static",
+  "thumbnail": "static/cicero.jpg",
+  "project": "proj1", 
+  "day": 12,
+  "month": 1,
+  "year": 2023,
+  "description": "Lorem Ipsum"
+}
+

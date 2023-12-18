@@ -1,0 +1,15 @@
+{ 
+    "file_path": "post1.ipynb",
+    "post_dir": "post1",
+    "format": "ipynb",
+    "static_dir": "static",
+    "title": "Post1",
+    "authors": ["Alia Lescoulie"],
+    "day": 1,
+    "month": 1,
+    "year": 2023,
+    "description": "A test jupyter notebook",
+    "thumbnail": "static/cicero.jpg",
+    "projects": ["proj1"],
+    "tags": ["foo", "bar"]
+}

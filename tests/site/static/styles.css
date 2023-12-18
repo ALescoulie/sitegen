@@ -1,0 +1,149 @@
+body {
+    background-image: url("tile.webp");
+    background-repeat: repeat;
+    display: grid;
+    grid-template-rows: var(--header-height) auto;
+    grid-template-columns: var(--sidebar-width) auto;
+    font-family: "Times New Roman" serif;
+}
+
+.header {
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+.header h1 {
+    font-size: xx-large;
+    color: white;
+    font-family: "Times New Roman";
+}
+
+table, th, td {
+    border: 3px solid white;
+    border-style: inset;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fill { /* filling the table tiles */
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+td {
+    width: 33%;
+}
+
+h1 {
+    color: white;
+    font-size: xx-large;
+    font-family: "Times New Roman";
+}
+
+h2 { /*For table cell text*/
+    color: white;
+    font-size: large;
+    font-family: "Times New Roman";
+}
+
+h3 {
+    color: white;
+    font-family: "Times New Roman";
+}
+
+.sidenav { /* side nav bar */
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: black;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.sidenav a {
+    font-size: medium;
+    color: white;
+    font-family: "Times New Roman";
+}
+
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}
+
+.left_img_container {
+    /* Image with text to left for about page */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.left_img {
+    /* Image for left_img_container */
+    flex-basis: 40%;
+}
+
+.left_img_text {
+    /* Text for left_img_container */
+    font-size: large;
+    padding-left: 20px;
+    align-self: first baseline;
+}
+
+.left_img_container p {
+    font-family: "Times New Roman";
+    color: white;
+}
+
+.post-header {
+    color: white;
+    text-align: center;
+}
+
+.blog_text {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    background-color: white;
+}
+
+.blog_post_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    max-height: 200px;
+    margin-bottom: 20px;
+
+}
+
+.blog_post_item_img {
+    flex-basis: 20%;
+    max-width: 12%;
+}
+
+.blog_post_item_text {
+    flex-basis: 80%;
+    margin-left: 10px;
+    max-width: 48%;
+    color: white;
+}
+

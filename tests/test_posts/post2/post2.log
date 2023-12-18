@@ -1,0 +1,81 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/nixos.org) (preloaded format=pdflatex 1980.1.1)  2 NOV 2023 15:53
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/alia/Documents/alialescoulie.com/tests/test_posts/post2/post2.tex
+(/home/alia/Documents/alialescoulie.com/tests/test_posts/post2/post2.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22> (/nix/store/g3dygcjcisw1329in9igvmfm8ycb8k9v-texlive-combined-full-2022-final-texmfdist/tex/latex/base/report.cls
+Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
+(/nix/store/g3dygcjcisw1329in9igvmfm8ycb8k9v-texlive-combined-full-2022-final-texmfdist/tex/latex/base/size10.clo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/nix/store/g3dygcjcisw1329in9igvmfm8ycb8k9v-texlive-combined-full-2022-final-texmfdist/tex/latex/lipsum/lipsum.sty (/nix/store/g3dygcjcisw1329in9igvmfm8ycb8k9v-texlive-combined-full-2022-final-texmfdist/tex/latex/l3packages/l3keys2e/l3keys2e.sty (/nix/store/g3dygcjcisw1329in9igvmfm8ycb8k9v-texlive-combined-full-2022-final-texmfdist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2023-02-22 L3 programming layer (loader) 
+ (/nix/store/g3dygcjcisw1329in9igvmfm8ycb8k9v-texlive-combined-full-2022-final-texmfdist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box51
+))
+Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count195
+\l__lipsum_a_int=\count196
+\l__lipsum_b_int=\count197
+ (/nix/store/g3dygcjcisw1329in9igvmfm8ycb8k9v-texlive-combined-full-2022-final-texmfdist/tex/latex/lipsum/lipsum.ltd.tex)) (./post2.aux)
+\openout1 = `post2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+
+Chapter 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 9.
+[1
+
+
+{/nix/store/pcm5q6z334ps3sdhshf6ydhj8m42m4cz-texlive-combined-full-2022-final/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./post2.aux) ) 
+Here is how much of TeX's memory you used:
+ 895 strings out of 476024
+ 20422 string characters out of 5764067
+ 1854388 words of memory out of 5000000
+ 21409 multiletter control sequences out of 15000+600000
+ 513200 words of font info for 35 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 72i,5n,77p,271b,111s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</nix/store/g3dygcjcisw1329in9igvmfm8ycb8k9v-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></nix/store/g3dygcjcisw1329in9igvmfm8ycb8k9v-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/amsfonts/cm/cmex10.pfb></nix/store/g3dygcjcisw1329in9igvmfm8ycb8k9v-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></nix/store/g3dygcjcisw1329in9igvmfm8ycb8k9v-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></nix/store/g3dygcjcisw1329in9igvmfm8ycb8k9v-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/amsfonts/cm/cmr10.pfb></nix/store/g3dygcjcisw1329in9igvmfm8ycb8k9v-texlive-combined-full-2022-final-texmfdist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on post2.pdf (1 page, 64596 bytes).
+PDF statistics:
+ 38 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

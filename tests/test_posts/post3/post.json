@@ -1,0 +1,15 @@
+{
+    "file_path": "post3.md",
+    "post_dir": "post3",
+    "format": "latex",
+    "static_dir": "static",
+    "title": "Post3",
+    "authors": ["Alia Lescoulie"],
+    "day": 1,
+    "month": 1,
+    "year": 2022,
+    "description": "A test latex doc",
+    "thumbnail": "static/cicero.png",
+    "projects": ["proj1"],
+    "tags": ["bar"]
+}
