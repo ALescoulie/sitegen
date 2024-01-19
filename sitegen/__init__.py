@@ -53,6 +53,9 @@ def build_production():
     
     build.copy_static()
     build.build_pages()
+
+
+def build_content():
     blog_posts: List[build.PostBuildData] = build.build_blog(verbose=True)
     build.build_projects(blog_posts)
 
