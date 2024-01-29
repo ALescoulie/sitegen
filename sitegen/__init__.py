@@ -5,7 +5,7 @@ import shutil
 import pandoc
 
 from . import build
-
+from .utils import cli
 
 PANDOC_PATH_ENV = 'PANDOC_BINARY'
 

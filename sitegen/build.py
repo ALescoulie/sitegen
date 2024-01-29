@@ -17,13 +17,12 @@ from jinja2 import Environment, Template, FileSystemLoader, select_autoescape
 import pandoc
 
 # Pre-defined site names
-SITEGEN_DIR: Final[Path] = Path(__file__).parent
 BUILD_DIR: Final[Path] = Path("site_out")
-SRC_DIR: Final[Path] = SITEGEN_DIR / "site_src"
-STATIC_DIR: Final[Path] = SITEGEN_DIR / "site_src/static"
+SRC_DIR: Final[Path] = Path("site_src")
+STATIC_DIR: Final[Path] = Path("site_src/static")
 POSTS_DIR: Final[Path] = Path("blog_posts")
-PROJS_DIR: Final[Path] = SITEGEN_DIR / "projects"
-TEMPLATE_DIR: Final[Path] = SITEGEN_DIR / "templates"
+PROJS_DIR: Final[Path] = Path("projects")
+TEMPLATE_DIR: Final[Path] = Path(__file__).parent / Path("templates")
 POST_BUILD_DIR: Final[Path] = BUILD_DIR / "posts"
 PROJS_BUILD_DIR: Final[Path] = BUILD_DIR / "projects"
 

@@ -21,4 +21,5 @@ build-backend = "poetry.core.masonry.api"
 sitegen = "sitegen:build_production"
 content = "sitegen:build_content"
 test = "sitegen:build_test"
+utils = "sitegen:cli"
 
